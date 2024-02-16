@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="finalsws101.css">
+  <style>
+    .project-image {
+      transition: border-color 0.5s ease;
+      width: 250px; /* Adjusted image size */
+    }
+
+    /* Green button styles */
+    .nav-links ul {
+      display: flex;
+      justify-content: flex-end;
+      list-style: none;
+    }
+
+    .nav-links li {
+      margin-right: 20px;
+    }
+
+    .nav-links a {
+      padding: 10px 20px;
+      border-radius: 25px; /* Make buttons circular */
+      border: 2px solid gray; /* Add gray border */
+      color: #4CAF50; /* Green button color */
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 18px;
+      transition: background-color 0.3s, color 0.3s; /* Add transition for color change */
+    }
+
+    .nav-links a:hover {
+      background-color: #4CAF50; /* Change background color on hover */
+      color: #fff; /* Change text color on hover */
+    }
+
+    .nav-links a.active {
+      background-color: skyblue; /* Change background color when clicked */
+    }
+
+    /* Adjust size of social media icons/images */
+    .contact-social img {
+      width: 60px;
+      height: auto;
+      margin: 30px;
+    }
+  </style>
+</head>
+<body>
+  <header class="home">
+    <div class="header-container">
+      <h1 class="header-title">
+★¸.•☆•.¸★ 🅁🄰🄼🄽🄸🄴🄻 ★⡀.•☆•.★</h1>
+      <nav class="nav-links">
+        <ul>
+          <li><a href="#" onclick="scrollToSection('home')">Home</a></li>
+          <li><a href="#" onclick="scrollToSection('about')">About</a></li>
+          <li><a href="#" onclick="scrollToSection('projects')">Projects</a></li>
+          <li><a href="#" onclick="scrollToSection('contact')">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="header-content">
+      <h2>🅆🄴🄻🄲🄾🄼🄴 🅃🄾 🄼🅈 🄿🄾🅁🅃🄵🄾🄻🄸🄾</h2>
+ <div class="home-container">
+  <div class="home-text">
+    <br></br>
+    <p>I'm an enthusiastic IT student with a talent for creating engaging online content. With my expertise in HTML, CSS, and JavaScript, I like transforming designs into dynamic, user-friendly webpages. Whether it's improving user interfaces, adding dynamic features, or creating responsive layouts.</p>
+    <br></br>
+    <p>Apart from my expertise in web development, I also possess programming experience in Python. I use Python's flexibility to handle a variety of problems, from creating reliable backend systems to automating repetitive operations. I have a strong attention to detail and a strong desire to keep learning new things. I'm committed to pushing the limits of what's possible in the digital world. See how I combine technical know-how with artistic flair to bring ideas to life by looking through my portfolio!
+  </div>
+  <div class="home-image">
+    <img src="formal.png" alt="About Me Image" class="animate-on-scroll">
+    <div style="text-align: center; margin-top: 20px;">
+      <a href="https://xsluhie.github.io/online-resume/" class="contact-btn">𝚅𝙸𝙴𝚆 𝚁𝙴𝚂𝚄𝙼𝙴</a> 
+    </div>
+  </div>
+</div>
+  </header>
+
+<section id="about">
+  <div class="container">
+    <h2>🄰🄱🄾🅄🅃 🄼🄴</h2>
+    <div class="about-content">
+      <div class="about-image">
+        <img src="spotify.jpg" alt="Spotify Image" class="animate-on-scroll">
+      </div>
+      <div class="about-image">
+        <img src="iph.png" alt="Camera.image" class="animate-on-scroll">
+      </div>
+      <div class="about-image">
+        <img src="mcdo.jpg" alt="Mcdo.image" class="animate-on-scroll">
+      </div>
+      <div class="about-text">
+        As an individual who values education and self-expression, I have consistently maintained an honor student status since my elementary years. Alongside my academic pursuits, I have a deep passion for the art of makeup, reveling in the creativity it allows me to express. When not hitting the books or perfecting my makeup skills, you can often find me scouring the racks of ukay-ukay shops, where I enjoy the thrill of uncovering hidden gems. Balancing my academic endeavors, I work diligently as a team member at McDonald's Quezon Avenue 194, embracing the responsibilities of being a working student. In my free time, I indulge in capturing moments through the lens of my camera, cherishing the beauty of photography. Additionally, I channel my creativity into web designing, finding joy in crafting digital experiences. Through my diverse interests and unwavering dedication, I strive to carve out my path while embracing every opportunity for growth and self-discovery.
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section id="projects">
+  <div class="container">
+    <h2>🄿🅁🄾🄹🄴🄲🅃🅂
+    <br></br>𝘊𝘭𝘪𝘤𝘬 𝘢𝘯 𝘪𝘮𝘢𝘨𝘦 𝘵𝘰 𝘴𝘦𝘦 𝘵𝘩𝘦 𝘭𝘪𝘷𝘦 𝘥𝘦𝘮𝘰 𝘰𝘧 𝘵𝘩𝘦 𝘴𝘦𝘭𝘦𝘤𝘵𝘦𝘥 𝘱𝘳𝘰𝘫𝘦𝘤𝘵.<br></br></h2>
+    <div class="column">
+      <div class="project">
+        <a href="https://xsluhie.github.io/my-to-do-list/">
+          <img src="project1.jpg" alt="Project 1" class="project-image animate-on-click">
+        </a>
+        <h3>To-Do List App</h3>
+      </div>
+      <div class="project">
+        <a href="https://xsluhie.github.io/Responsive-Landing-Page/">
+          <img src="project2.jpg" alt="Project 2" class="project-image animate-on-click">
+        </a>
+        <h3>Responsive Landing Page</h3>
+      </div>
+      <div class="project">
+        <a href="https://xsluhie.github.io/online-resume/">
+          <img src="project3.jpg" alt="Project 3" class="project-image animate-on-click">
+        </a>
+        <h3>Online Resume</h3>
+      </div>
+    </div>
+    <div class="column">
+      <div class="project">
+        <a href="https://xsluhie.github.io/working-calculator/">
+          <img src="project4.jpg" alt="Project 4" class="project-image animate-on-click">
+        </a>
+        <h3>Working Calculator</h3>
+      </div>
+      <div class="project">
+        <a href="https://xsluhie.github.io/HandsOn1-addEventListener-WS101/">
+          <img src="project5.jpg" alt="Project 5" class="project-image animate-on-click">
+        </a>
+        <h3>Event Listener</h3>
+      </div>
+      <div class="project">
+        <a href="https://xsluhie.github.io/HandsOn2-colorChanger-WS101/">
+          <img src="project6.jpg" alt="Project 6" class="project-image animate-on-click">
+        </a>
+        <h3>Color Changing</h3>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="container">
+    <h2>🄲🄾🄽🅃🄰🄲🅃 🄼🄴</h2>
+    <div class="contact-social">
+      <a href="https://www.facebook.com/ramniel.flancia?mibextid=ZbWKwL" target="_blank"><img src="facebook_logo.png"></a>
+      <a href="https://www.instagram.com/xychalerm?igsh=NWs5Y3NidjV3ejM3" target="_blank"><img src="instagram_logo.png"></a>
+      <a href="https://www.tiktok.com/@xsluhie?_t=8jv2MFdu2FD&_r=1" target="_blank"><img src="tiktok_logo.png"></a>
+    </div>
+    <form onsubmit="return validateForm()">
+      <input type="text" id="name" placeholder="Name" class="contact-input">
+      <input type="email" id="email" placeholder="Email" class="contact-input">
+      <textarea id="message" placeholder="Message" class="contact-input"></textarea>
+      <button type="submit" class="contact-btn">Send Message</button>
+    </form>
+  </div>
+</section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 Mark Ramniel F. Perez<br>All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    function scrollToSection(sectionId) {
+      var section = document.getElementById(sectionId);
+      window.scrollTo({
+        top: section.offsetTop,
+        behavior: 'smooth'
+      });
+
+      document.querySelectorAll('.nav-links a').forEach(link => {
+        link.classList.remove('active');
+      });
+      
+      document.querySelector('.nav-links a[href="#' + sectionId + '"]').classList.add('active');
+    }
+    
+    function validateForm() {
+    var name = document.getElementById("name").value;
+    var message = document.getElementById("message").value;
+
+    if (name.trim() === '' || message.trim() === '') {
+      alert("Please fill in all fields (Name and Message).");
+      return false;
+    }
+    return true;
+  }
+
+    document.querySelectorAll('.project-image').forEach(image => {
+      image.addEventListener('mouseover', () => {
+        image.style.borderColor = '#4CAF50';
+      });
+
+      image.addEventListener('mouseout', () => {
+        image.style.borderColor = 'whitesmoke';
+      });
+    });
+  </script>
+</body>
