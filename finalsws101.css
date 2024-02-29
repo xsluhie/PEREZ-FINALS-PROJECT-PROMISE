@@ -95,16 +95,6 @@ header {
   padding: 50px 0;
 }
 
-.project-buttons {
-  background-color: #4CAF50;
-  color: whitesmoke;
-  padding: 8px 20px;
-  border-radius: 5px;
-  border: 3px solid gray;
-  font-size: 16px;
-  cursor: pointer;
-}
-
 #projects .container {
   text-align: center;
 }
@@ -142,7 +132,6 @@ header {
   transform: scale(1.1);
 }
 
-
 .project:hover .layer {
   height: 100%;
 }
@@ -156,7 +145,6 @@ header {
   font-size: 18px;
 }
 
-/* Contact Section Styles */
 #contact {
   background-color: #333;
   color: #fff;
@@ -195,10 +183,6 @@ header {
   transition: border-color 0.5s ease;
 }
 
-.project-image.clicked {
-  border-color: pink; 
-}
-
 body {
   display: flex;
   flex-direction: column;
@@ -225,7 +209,7 @@ body {
 }
 
 #about {
-  background-image: url('homebg.jpg'); 
+  background-image: url('aboutme.jpg'); 
   background-size: cover;
   background-position: center;
 }
@@ -237,9 +221,8 @@ body {
 }
 
 #contact {
-  background-image: url('homebg.jpg');
-  background-size: cover;
-  background-position: center;
+  background-image: url('shhh.jpg');
+  display: flex;
 }
 
 .about-content {
@@ -254,12 +237,12 @@ body {
 }
 
 .about-text {
-  width: 85%; 
+  margin: 0 auto;
+  max-width: 800px; 
   font-weight: bold;
-  font-size: 19px;
+  font-size: 20px;
   color: whitesmoke;
-  margin: 0 5px;
-  text-align: justify;
+  text-align: center;
 }
 
 .about-image {
@@ -367,61 +350,3 @@ body {
   }
 }
 
-@media only screen and (max-width: 600px) {
-
-  .project-image {
-    width: 150px;
-  }
-  
-  .container h2 {
-    font-size: 24px;
-  }
-  
-  .about-image {
-    width: 100%;
-  }
-  
-  .about-text {
-    width: 100%;
-  }
-  
-  .home-text {
-    width: 100%;
-  }
-  
-  .home-image {
-    width: 100%;
-  }
-  
-  .home-image img {
-    max-height: 300px;
-  }
-}
-
-@media only screen and (max-width: 480px) {
-
-  .header-title {
-    font-size: 16px;
-  }
-  
-  .nav-links li {
-    margin-right: 5px;
-  }
-  
-  .nav-links a {
-    font-size: 14px;
-    padding: 6px 12px;
-  }
-  
-  .header-content h2 {
-    font-size: 24px;
-  }
-  
-  .contact-input {
-    font-size: 14px;
-  }
-  
-  .contact-btn {
-    font-size: 14px;
-  }
-}
